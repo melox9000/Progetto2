@@ -1,0 +1,16 @@
+.bottone{
+    background-color: #240202;
+    padding: 14px 33px;
+}
+.bottone a{
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.bottone a::after{
+    content: "";
+    height: 34px;
+    width: 28px;
+    background-image: url(frecia.svg);
+}

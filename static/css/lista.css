@@ -1,0 +1,12 @@
+ul{
+    counter-reset: listItem;
+    list-style: none;
+    font-family: Merriweather;
+    font-size: 22px;
+  }
+  
+  li:before {
+    color: red;
+    content: "0" counter(listItem)".";
+    counter-increment: listItem;
+  }

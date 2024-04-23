@@ -3,6 +3,7 @@
     padding: 14px 33px;
 }
 .bottone a{
+    font-family: Merriweather;
     font-size: 35px;
     color: #ffffff;
     text-decoration: none;
@@ -12,5 +13,8 @@
     content: "";
     height: 34px;
     width: 28px;
-    background-image: url(frecia.svg);
+    background-image: url(img/right-arrow-svgrepo-com.svg);
+    display: block;
+    color: #ffffff;
+    background-image: #ffffff;
 }

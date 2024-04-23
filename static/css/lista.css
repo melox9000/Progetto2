@@ -6,7 +6,15 @@ ul{
   }
   
   li:before {
-    color: red;
+    color: #707070;
     content: "0" counter(listItem)".";
     counter-increment: listItem;
+    font-size: 70px;
+  }
+  .button-list{
+    color:#FF0000 ;
+  }
+  .paragrafo-lista{
+    border-top: #707070 solid 1px;
+    color: #707070;
   }

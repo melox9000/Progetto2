@@ -1,8 +1,12 @@
 .hero{
     padding-top: 130px;
     padding-bottom: 120px;
+    border: solid #707070 1px;
   }
   .hero.variant-one{
     background-color: #CEFBFF;
+  }
+  .hero.variant-two{
+    background-color: #ECCEFF;
   }
   

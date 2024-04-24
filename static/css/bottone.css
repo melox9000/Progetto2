@@ -1,6 +1,7 @@
 .bottone{
     background-color: #240202;
     padding: 14px 33px;
+    
 }
 .bottone a{
     font-family: Merriweather;
@@ -13,8 +14,10 @@
     content: "";
     height: 34px;
     width: 28px;
-    background-image: url(img/right-arrow-svgrepo-com.svg);
+    background-image: url(https://www.svgrepo.com/show/60156/right-arrow.svg);
     display: block;
     color: #ffffff;
-    background-image: #ffffff;
+    background-size: 28px 34px ;
+background-repeat: no-repeat ;
+background-position: calc(100% - 28px) center;
 }

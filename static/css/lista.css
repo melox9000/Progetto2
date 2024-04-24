@@ -10,6 +10,7 @@ ul{
     content: "0" counter(listItem)".";
     counter-increment: listItem;
     font-size: 70px;
+    
   }
   .button-list{
     color:#FF0000 ;
@@ -17,4 +18,11 @@ ul{
   .paragrafo-lista{
     border-top: #707070 solid 1px;
     color: #707070;
+  }
+  .lista{
+    margin-top: 104px;
+    margin-bottom: 147px;
+  }
+  li{
+    margin-top: 100px;
   }

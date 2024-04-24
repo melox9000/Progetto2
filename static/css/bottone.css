@@ -1,23 +1,32 @@
 .bottone{
-    background-color: #240202;
+    color: white;
+    background: #240202;
     padding: 14px 33px;
+    text-decoration: none;
+    display: block;
+    font-size: 35px;
+    line-height: 50px;
+    position: relative;
+
     
 }
 .bottone a{
-    font-family: Merriweather;
-    font-size: 35px;
-    color: #ffffff;
+    font-family: Merrywheater;
+    color: #FFFFFF;
     text-decoration: none;
+    font-size: 35px;
 
 }
-.bottone a::after{
+.bottone::after{
     content: "";
     height: 34px;
     width: 28px;
-    background-image: url(https://www.svgrepo.com/show/60156/right-arrow.svg);
+    background-image: url("../img/freccia.svg");
     display: block;
-    color: #ffffff;
-    background-size: 28px 34px ;
-background-repeat: no-repeat ;
-background-position: calc(100% - 28px) center;
+    color: white;
+    background-size: 28x 34px ;
+    position: absolute;
+    transform: translate(-50%);
+    right: 21px;
+    top: 22px;
 }
